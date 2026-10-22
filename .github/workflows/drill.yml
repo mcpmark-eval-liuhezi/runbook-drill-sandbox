@@ -1,0 +1,15 @@
+name: Runbook Drill
+
+on:
+  workflow_dispatch:
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkpoint 1
+        run: echo "DRILL-CHECKPOINT-1 green"
+      - name: Checkpoint 2
+        run: echo "DRILL-CHECKPOINT-2 green"
+      - name: Checkpoint 3
+        run: echo "DRILL-CHECKPOINT-3 green"
